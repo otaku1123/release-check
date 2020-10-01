@@ -49,4 +49,4 @@ Releaseする手順は、下記が良さそう
 上記手順を行うと
 
 - Git flowの流れでマージできる
-- GitHub上でReleaseページがされる
+- GitHub上でReleaseページが生成される
