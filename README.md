@@ -35,3 +35,18 @@
 - Releaseページに角丸で"Release"とマークされない
 - "Releaseするbranch"に対してTagが生成される
 - 最新のbranchのコードが圧縮されたファイルが記録される
+
+## まとめ
+
+Releaseする手順は、下記が良さそう
+
+1. SourceTreeでgit flowの手順でマージ作業を実施
+2. pushする。（GitHub上にタグ情報が登録される）
+3. GitHubでpushしたタグページを開く
+4. 「Release title」にバージョン情報などを記入
+5. Update releaseボタンを押下
+
+上記手順を行うと
+
+- Git flowの流れでマージできる
+- GitHub上でReleaseページがされる
